@@ -1,0 +1,82 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "H3SPDFUtilityWrapper",
+    "printedName": "H3SPDFUtilityWrapper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "H3SPDFUtilityWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "h3s_pdf_utility",
+        "printedName": "h3s_pdf_utility",
+        "declKind": "Import",
+        "moduleName": "H3SPDFUtilityWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PDFHelperBridge",
+        "printedName": "PDFHelperBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "performPDFTask",
+            "printedName": "performPDFTask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20H3SPDFUtilityWrapper15PDFHelperBridgeC14performPDFTaskyyFZ",
+            "mangledName": "$s20H3SPDFUtilityWrapper15PDFHelperBridgeC14performPDFTaskyyFZ",
+            "moduleName": "H3SPDFUtilityWrapper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20H3SPDFUtilityWrapper15PDFHelperBridgeC",
+        "mangledName": "$s20H3SPDFUtilityWrapper15PDFHelperBridgeC",
+        "moduleName": "H3SPDFUtilityWrapper",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
